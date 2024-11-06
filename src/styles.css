@@ -1,0 +1,46 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding-top: 2rem;
+}
+nav>button {
+  padding: 0.7rem 1rem;
+  border-radius: 45%;
+  border: 4px rgb(1, 103, 143) inset;
+  background: aqua;
+}
+#content {
+  width: 60%;
+  background-color: black;
+  opacity: 65%;
+  margin: auto;
+  margin-top: 2rem;
+}
+ul {
+  list-style: none;
+}
+h1 {
+  text-align: center;
+}
+/* menu */
+#menuDiv {
+  display: flex;
+  justify-content: space-around;
+}
+#menuDiv h3 {
+  margin: 6px;
+}
